@@ -1,4 +1,4 @@
-PRATICA C
+PRATICA EM C
 #includ <stdio.h>
 #includ <stdlib.h>
 
@@ -80,7 +80,7 @@ void inicializarFila(Fila *f) {
 
     //Remove uma pessoa da Fila
     Pessoa removida;
-    remover(&f, &removida); Aqui usamos a função de remoção
+    remover(&f, &removida); Aqui usamos função de remoção
     printf("pessoa removida: %s, %d\n", removida.nome, removida.idade);
 
     MostrarFila(&f);  //Mostra a Fila após a remoção
